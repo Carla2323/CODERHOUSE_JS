@@ -1,0 +1,545 @@
+@import "./partials/variables";
+@import "./partials/fuentes";
+@import "./partials/queries";
+@each $nombre-foto in bannerRosa, bannerProt, bannerRopa{
+    .#{$nombre-foto}-icon{
+        background-image: url("../Img/tienda/#{$nombre-foto}");
+    }
+} 
+
+
+/*INDEX*/
+
+html, body{
+    overflow-x:hidden;
+}
+
+body{
+    background-color: rgba(245, 238, 238, 0.397);
+}
+
+h1 {
+    color: $color-principal;
+    font-size: ($letra*5)+7;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: $letra*2;
+}
+
+.nav-link:hover {
+    color: $color-principal !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+hr {
+    opacity: 1 !important;
+    height: 5px !important;
+}
+
+.hr-index {
+    background: rgb(172,232,33);
+    background: linear-gradient(90deg, rgba(172,232,33,1) 0%, rgba(159,218,24,1) 20%, rgba(136,189,13,1) 50%, rgba(159,218,24,1) 80%, rgba(172,232,33,1) 100%);
+}
+
+.text-center-h2 {
+    padding-bottom: 40px;
+    background-color: rgba(203, 248, 203, 0.178);
+
+}
+
+.hero { 
+    background-image: url("../Img/varios/friends.jpg");
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: left;
+    margin-top: 10px;
+    h2{
+        background-color: rgb(255, 81, 0);
+        color: white;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    p{
+        font-weight: 700;
+        background-color: white;
+        color: rgb(255, 81, 0);
+        width: 60%;
+        margin-left: 30px;
+    }
+}
+
+.carousel-inner {
+    margin-top: 10px;
+    p{
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+.container{
+    &__servicios{
+        img{
+            max-width: 290x;
+            max-height: 290px;
+        }
+    }
+}
+
+.equipo {
+    background-color: #85c434;
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;   
+        color: $color-texto-secundario;
+    }
+}
+
+
+.container{
+    &__staff{
+        img{
+            max-width: 290px;
+            max-height: 290px;
+            border-radius: 150px;
+        }
+    }
+}
+
+.containerBeneficios{
+    padding: 5px 20px 5px 20px;
+    margin-top: 30px;
+    h2{
+        color: $color-principal;
+        font-weight: 700;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .titulo{
+        color: $color-principal;
+        font-weight: 400;
+    }
+}
+
+.hero-banner-img {
+    height: 250px;
+    position: static;
+}
+
+.suplementos{
+    background-color: $color-principal;
+    margin: 0 0 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    h2{
+        color:black;
+        font-size: 40px;
+        text-align: center;
+    }
+    p{
+        color: white;
+    }
+    a{
+        background-color: white;
+        padding: 10px;
+    }
+    a:hover{
+        cursor: pointer;
+        color: $borde-principal;
+        text-decoration: underline $borde-principal solid 1px;
+    }
+}
+
+.logo {
+    max-width: 80px;
+    border: $borde-principal solid 2px;
+}
+
+
+.ml-5 {
+    margin-left: 1rem;
+}
+
+/*RUTINAS*/
+
+.nav-link-rutinas {
+  font-size: $letra*2;
+}
+
+.nav-link-rutinas:hover {
+  color: $color-secundario !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hr-rutinas {
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7ecae4, #90d3a4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9ad8ec, #84e9a3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.categorias {
+    color: $color-secundario;
+    p{
+        font-size: $letra+8;
+    }
+}
+
+p {
+    color: $color-texto-principal;
+}
+
+.content-block-5 .swiper-slide {
+    width: 242px !important;
+}
+
+.content-block-5 .swiper-button-next,
+.content-block-5 .swiper-button-prev {
+    top: 8px;
+    height: 240px;
+    padding: 0 20px;
+}
+
+.content-block-5 .swiper-button-next-gradient,
+.swiper-button-prev-gradient {
+    position: absolute;
+    width: 100%;
+    content: '';
+    top: 0;
+    left: auto;
+    height: 250px;
+}
+
+.content-block-5 .swiper-button-next-gradient {
+    right: 0;
+}
+
+.content-block-5 .swiper-button-prev-gradient {
+    left: 0;
+}
+
+.content-block-5 .swiper-button-next > svg,
+.content-block-5 .swiper-button-prev > svg {
+    margin-top: 70px;
+    margin-bottom: auto;
+  }
+
+  .content-block-1 .pb-card {
+    height: 15rem;
+  }
+
+  .pb-card {
+    background-color: rgba(0,0,0,0); 
+    color: #00f8b6ff;
+  }
+
+.overflow-hidden {
+    overflow: hidden;
+} 
+
+/*sección 2*/
+
+.containerRutinas{
+    background-color: black;
+    h2{
+        color: $color-texto-secundario;
+    }
+    &__titulo{
+        font-size: 60px;
+    }
+    &__servicios{
+        h6{
+            color: white;
+            font-weight: 750;
+            margin-top: 10px;
+        }
+        img{
+            max-width: 290px;
+            max-height: 290px;
+        }
+        img:hover{
+            cursor: pointer;        
+        }
+    }
+    &__servicios:hover{
+        cursor: pointer;
+        text-decoration: underline solid white 2px;
+    }
+}
+
+/*RECETAS*/
+
+.hr-recetas{
+    background: rgb(172,232,33);
+    background: linear-gradient(90deg, rgb(45, 112, 109) 0%, rgb(58, 119, 116) 20%, rgb(35, 85, 82) 50%, rgb(67, 150, 146) 80%, rgb(22, 88, 85) 100%);
+}
+
+.nav-link-recetas {
+  font-size: $letra*2;
+}
+
+.nav-link-recetas:hover {
+  color: rgb(45, 112, 109)!important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bannerRecetas {
+    background-image: url(../img/recetas/bannerRecetas.jpg);
+    padding: 2% 0;
+    margin: 1% 1.5%;  
+    text-align: center;
+    border-radius: 10px;
+    &__titulo{
+        font-size: $letra*4;
+        color: rgb(45, 112, 109);
+    }
+}
+
+.containerRecetas{
+    &__serviciosHijo-recetas{
+            img{
+                max-width: 200px;
+                max-height: 200px;
+            }
+    }
+}
+
+.text-center-h2-recetas {
+    padding-bottom: 40px;
+
+}
+
+
+.Recetas {
+    width: 88%;
+    padding: 1px;
+    margin-left: 30px;
+    p{
+        text-align: justify;
+        font-size: $letra*2.5;
+        padding: 30px;
+    }
+    img{
+        border-radius: 5px;
+        width: 400px;
+        height: 300px;
+    }
+    h3:hover{
+        text-decoration: underline rgb(17, 141, 141) 2px;
+        color: rgb(17, 141, 141);
+        cursor: pointer;
+    }
+}
+
+/*TIPS*/
+
+.hr-tips{
+background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}  
+
+.nav-link-tips {
+  font-size: $letra*2;
+}
+
+.nav-link-tips:hover {
+  color: $color-tips !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-primary{
+  margin-top: 10px;
+  background-color: black !important;
+  border: black !important;
+}
+
+#botonTips{
+  display: flex;
+  justify-content: center;
+  height: 75px;
+}
+
+.artIntro{
+  margin-top: 10px;
+}
+
+.containerTips{
+    &__serviciosPadre{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    &__serviciosHijo{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
+            img{
+                max-width: 290px;
+                max-height: 290px;
+            }
+        margin: 10px;
+    }
+}
+
+/*TIENDA*/
+
+.nav-link-tienda {
+  font-size: $letra*2;
+}
+
+.nav-link-tienda:hover {
+  color: $color-tienda !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hr-tienda {
+    background: $color-tienda;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b91d73, $color-tienda);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b91d73, $color-tienda); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.bannerRosa-icon {
+  background-image: url(../img/tienda/bannerRosa.jpg);
+  padding: 6% 0;
+  margin: 1% 1.5%;  
+  text-align: center;
+  border-radius: 10px;
+  &__titulo{
+      font-size: $letra*4;
+      background-color: white;
+      color: rgb(255, 220, 245);
+      font-weight: 700;
+  }
+}
+
+.bannerProt-icon {
+  background-image: url(../img/tienda/bannerProt.jpg);
+  padding: 6% 0;
+  margin: 1% 1.5%;  
+  text-align: center;
+  border-radius: 10px;
+  &__titulo{
+      font-size: $letra*4;
+      background-color: black;
+      color: white;
+      font-weight: 700;
+  }
+}
+
+.bannerRopa-icon {
+  background-image: url(../img/tienda/bannerRopa.jpg);
+  padding: 6% 0;
+  margin: 1% 1.5%;  
+  text-align: center;
+  border-radius: 10px;
+  &__titulo{
+      font-size: $letra*4;
+      background-color: rgb(252, 96, 57);
+      color: grey;
+      font-weight: 700;
+  }
+}
+
+.containerTienda{
+    margin-top: 40px;
+    &__productos{
+            img{
+                max-width: 200px;
+                max-height: 200px;
+                margin: 15px;
+            }
+    }
+}
+
+.productosTienda { //en desuso por el momento.
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3 1fr);
+    column-gap: 50px;
+    row-gap: 20px;
+    height: 100%;
+    width: 80%;
+    margin: 40px auto 20px auto;
+    text-align: center;    
+    article{
+        border: solid $borde-principal 2px;
+        justify-items: center;
+    }
+    &__img{
+        width: 300px;
+        height: 300px;
+        padding-top: 20px;
+    }
+    p{
+        font-size: $letra*2;
+        font-weight: bold;
+    }
+    &__precio{
+        font-size: $letra*3;
+        border: solid 1px $borde-principal;
+        margin: 0 10px;
+    }
+}
+
+.total{
+    color: $color-tienda;
+    font-size: $letra*3;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.totalN{
+    color: $color-tienda;
+    font-size: $letra*3;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    &__logo{
+        max-width: 80px;
+        border: $borde-principal solid 2px;
+    }
+}
+
+.redes{
+    height: 200px;
+    padding: 30px;
+    h2{
+        font-family: gabriola;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.sociales{
+    text-align: center;
+    padding: 20px 0;
+    list-style: none;
+    li{
+        display: inline-block;
+    }
+    a{
+        padding: 10px;
+    }
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

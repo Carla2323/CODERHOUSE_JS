@@ -1,0 +1,192 @@
+/*INDEX*/
+
+h1 {
+    color: #88bd0d;
+    font-size: 57px;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #88bd0d !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+hr {
+    opacity: 1 !important;
+    height: 5px !important;
+}
+
+.hr-index {
+    background: rgb(172,232,33);
+    background: linear-gradient(90deg, rgba(172,232,33,1) 0%, rgba(159,218,24,1) 20%, rgba(136,189,13,1) 50%, rgba(159,218,24,1) 80%, rgba(172,232,33,1) 100%);
+}
+
+.h1Banner {
+    color: black;
+    font-weight: 100;
+}
+
+.sBanner {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    background-color: black;
+    color: rgb(241, 219, 190);
+}
+
+.text-center-h2 {
+    padding-bottom: 40px;
+    background-color: rgba(203, 248, 203, 0.178);
+
+}
+
+.hero { /*EN DESUSO POR EL MOMENTO*/
+    background-image: url(../Img/VARIOS/bannerPlantas.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+
+.carousel-inner {
+    margin-top: 10px;
+}
+
+.serviciosPadre{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.serviciosHijo {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serviciosHijo img {
+    max-width: 290px;
+    max-height: 290px;
+}
+
+.equipo {
+    background-color: #85c434;
+}
+
+
+.equipo p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.conoce {
+    color: black;
+    font-size: 25px;
+}
+
+.logo {
+    max-width: 80px;
+    border: black solid 2px;
+}
+
+
+.ml-5 {
+    margin-left: 1rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px){
+    .serviciosPadre {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*RUTINAS*/
+
+.h2Rutinas {
+    color: #6cdabe;
+    font-size: 57px;
+    text-align: center;
+}
+
+.hr-rutinas {
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7ecae4, #90d3a4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9ad8ec, #84e9a3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.categorias {
+    color: #30e4b4;
+}
+
+.categorias p{
+    font-size: 18px;
+}
+
+p {
+   color: rgb(126, 126, 126);
+}
+
+  .content-block-5 .swiper-slide {
+    width: 242px !important;
+  }
+
+  .content-block-5 .swiper-button-next,
+  .content-block-5 .swiper-button-prev {
+    top: 8px;
+    height: 240px;
+    padding: 0 20px;
+  }
+
+  .content-block-5 .swiper-button-next-gradient,
+  .swiper-button-prev-gradient {
+    position: absolute;
+    width: 100%;
+    content: '';
+    top: 0;
+    left: auto;
+    height: 250px;
+  }
+
+  .content-block-5 .swiper-button-next-gradient {
+    right: 0;
+  }
+
+  .content-block-5 .swiper-button-prev-gradient {
+    left: 0;
+  }
+
+  .content-block-5 .swiper-button-next > svg,
+  .content-block-5 .swiper-button-prev > svg {
+    margin-top: 70px;
+    margin-bottom: auto;
+  }
+
+  .content-block-1 .pb-card {
+    height: 15rem;
+  }
+
+  .pb-card {
+    background-color: rgba(0,0,0,0); 
+    color: #00f8b6ff
+  }
+
+  @media screen and (min-width: 1280px) {
+    .content-block-1 .pb-card {
+      height: 26rem;
+    }
+  }
+
+
+/*RECETAS*/
+

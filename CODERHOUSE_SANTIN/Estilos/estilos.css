@@ -1,0 +1,641 @@
+@charset "UTF-8";
+@media all and (max-width: 992px) {
+  .containerTips__serviciosPadre {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+  }
+  .containerTips__serviciosHijo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerTips__serviciosHijo img {
+    max-width: 290px;
+    max-height: 290px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .containerTips__serviciosPadre {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .containerTips__serviciosHijo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerTips__serviciosHijo img {
+    max-width: 290px;
+    max-height: 290px;
+  }
+}
+
+.bannerRosa-icon {
+  background-image: url("../Img/tienda/bannerRosa");
+}
+
+.bannerProt-icon {
+  background-image: url("../Img/tienda/bannerProt");
+}
+
+.bannerRopa-icon {
+  background-image: url("../Img/tienda/bannerRopa");
+}
+
+/*INDEX*/
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgba(245, 238, 238, 0.397);
+}
+
+h1 {
+  color: #88bd0d;
+  font-size: 57px;
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #88bd0d !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+hr {
+  opacity: 1 !important;
+  height: 5px !important;
+}
+
+.hr-index {
+  background: #ace821;
+  background: -webkit-gradient(linear, left top, right top, from(#ace821), color-stop(20%, #9fda18), color-stop(50%, #88bd0d), color-stop(80%, #9fda18), to(#ace821));
+  background: linear-gradient(90deg, #ace821 0%, #9fda18 20%, #88bd0d 50%, #9fda18 80%, #ace821 100%);
+}
+
+.text-center-h2 {
+  padding-bottom: 40px;
+  background-color: rgba(203, 248, 203, 0.178);
+}
+
+.hero {
+  background-image: url("../Img/varios/friends.jpg");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -ms-grid;
+  display: grid;
+  place-items: left;
+  margin-top: 10px;
+}
+
+.hero h2 {
+  background-color: #ff5100;
+  color: white;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.hero p {
+  font-weight: 700;
+  background-color: white;
+  color: #ff5100;
+  width: 60%;
+  margin-left: 30px;
+}
+
+.carousel-inner {
+  margin-top: 10px;
+}
+
+.carousel-inner p {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.container__servicios img {
+  max-width: 290x;
+  max-height: 290px;
+}
+
+.equipo {
+  background-color: #85c434;
+}
+
+.equipo p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.container__staff img {
+  max-width: 290px;
+  max-height: 290px;
+  border-radius: 150px;
+}
+
+.containerBeneficios {
+  padding: 5px 20px 5px 20px;
+  margin-top: 30px;
+}
+
+.containerBeneficios h2 {
+  color: #88bd0d;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containerBeneficios .titulo {
+  color: #88bd0d;
+  font-weight: 400;
+}
+
+.hero-banner-img {
+  height: 250px;
+  position: static;
+}
+
+.suplementos {
+  background-color: #88bd0d;
+  margin: 0 0 20px 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.suplementos h2 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.suplementos p {
+  color: white;
+}
+
+.suplementos a {
+  background-color: white;
+  padding: 10px;
+}
+
+.suplementos a:hover {
+  cursor: pointer;
+  color: black;
+  -webkit-text-decoration: underline black solid 1px;
+          text-decoration: underline black solid 1px;
+}
+
+.logo {
+  max-width: 80px;
+  border: black solid 2px;
+}
+
+.ml-5 {
+  margin-left: 1rem;
+}
+
+/*RUTINAS*/
+.nav-link-rutinas {
+  font-size: 20px;
+}
+
+.nav-link-rutinas:hover {
+  color: #30e4b4 !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hr-rutinas {
+  background: #348F50;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#9ad8ec), to(#84e9a3));
+  background: linear-gradient(to right, #9ad8ec, #84e9a3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.categorias {
+  color: #30e4b4;
+}
+
+.categorias p {
+  font-size: 18px;
+}
+
+p {
+  color: #7e7e7e;
+}
+
+.content-block-5 .swiper-slide {
+  width: 242px !important;
+}
+
+.content-block-5 .swiper-button-next,
+.content-block-5 .swiper-button-prev {
+  top: 8px;
+  height: 240px;
+  padding: 0 20px;
+}
+
+.content-block-5 .swiper-button-next-gradient,
+.swiper-button-prev-gradient {
+  position: absolute;
+  width: 100%;
+  content: '';
+  top: 0;
+  left: auto;
+  height: 250px;
+}
+
+.content-block-5 .swiper-button-next-gradient {
+  right: 0;
+}
+
+.content-block-5 .swiper-button-prev-gradient {
+  left: 0;
+}
+
+.content-block-5 .swiper-button-next > svg,
+.content-block-5 .swiper-button-prev > svg {
+  margin-top: 70px;
+  margin-bottom: auto;
+}
+
+.content-block-1 .pb-card {
+  height: 15rem;
+}
+
+.pb-card {
+  background-color: rgba(0, 0, 0, 0);
+  color: #00f8b6ff;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/*sección 2*/
+.containerRutinas {
+  background-color: black;
+}
+
+.containerRutinas h2 {
+  color: black;
+}
+
+.containerRutinas__titulo {
+  font-size: 60px;
+}
+
+.containerRutinas__servicios h6 {
+  color: white;
+  font-weight: 750;
+  margin-top: 10px;
+}
+
+.containerRutinas__servicios img {
+  max-width: 290px;
+  max-height: 290px;
+}
+
+.containerRutinas__servicios img:hover {
+  cursor: pointer;
+}
+
+.containerRutinas__servicios:hover {
+  cursor: pointer;
+  -webkit-text-decoration: underline solid white 2px;
+          text-decoration: underline solid white 2px;
+}
+
+/*RECETAS*/
+.hr-recetas {
+  background: #ace821;
+  background: -webkit-gradient(linear, left top, right top, from(#2d706d), color-stop(20%, #3a7774), color-stop(50%, #235552), color-stop(80%, #439692), to(#165855));
+  background: linear-gradient(90deg, #2d706d 0%, #3a7774 20%, #235552 50%, #439692 80%, #165855 100%);
+}
+
+.nav-link-recetas {
+  font-size: 20px;
+}
+
+.nav-link-recetas:hover {
+  color: #2d706d !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bannerRecetas {
+  background-image: url(../img/recetas/bannerRecetas.jpg);
+  padding: 2% 0;
+  margin: 1% 1.5%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bannerRecetas__titulo {
+  font-size: 40px;
+  color: #2d706d;
+}
+
+.containerRecetas__serviciosHijo-recetas img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.text-center-h2-recetas {
+  padding-bottom: 40px;
+}
+
+.Recetas {
+  width: 88%;
+  padding: 1px;
+  margin-left: 30px;
+}
+
+.Recetas p {
+  text-align: justify;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.Recetas img {
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+}
+
+.Recetas h3:hover {
+  -webkit-text-decoration: underline #118d8d 2px;
+          text-decoration: underline #118d8d 2px;
+  color: #118d8d;
+  cursor: pointer;
+}
+
+/*TIPS*/
+.hr-tips {
+  background: #ED213A;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#93291E), to(#ED213A));
+  background: linear-gradient(to right, #93291E, #ED213A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-link-tips {
+  font-size: 20px;
+}
+
+.nav-link-tips:hover {
+  color: #c9162e !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  background-color: black !important;
+  border: black !important;
+}
+
+#botonTips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 75px;
+}
+
+.artIntro {
+  margin-top: 10px;
+}
+
+.containerTips__serviciosPadre {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.containerTips__serviciosHijo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  grid-gap: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.containerTips__serviciosHijo img {
+  max-width: 290px;
+  max-height: 290px;
+}
+
+/*TIENDA*/
+.nav-link-tienda {
+  font-size: 20px;
+}
+
+.nav-link-tienda:hover {
+  color: #f953c6 !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hr-tienda {
+  background: #f953c6;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#b91d73), to(#f953c6));
+  background: linear-gradient(to right, #b91d73, #f953c6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bannerRosa-icon {
+  background-image: url(../img/tienda/bannerRosa.jpg);
+  padding: 6% 0;
+  margin: 1% 1.5%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bannerRosa-icon__titulo {
+  font-size: 40px;
+  background-color: white;
+  color: #ffdcf5;
+  font-weight: 700;
+}
+
+.bannerProt-icon {
+  background-image: url(../img/tienda/bannerProt.jpg);
+  padding: 6% 0;
+  margin: 1% 1.5%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bannerProt-icon__titulo {
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+.bannerRopa-icon {
+  background-image: url(../img/tienda/bannerRopa.jpg);
+  padding: 6% 0;
+  margin: 1% 1.5%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bannerRopa-icon__titulo {
+  font-size: 40px;
+  background-color: #fc6039;
+  color: grey;
+  font-weight: 700;
+}
+
+.containerTienda {
+  margin-top: 40px;
+}
+
+.containerTienda__productos img {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 15px;
+}
+
+.productosTienda {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3 1fr);
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 20px;
+  height: 100%;
+  width: 80%;
+  margin: 40px auto 20px auto;
+  text-align: center;
+}
+
+.productosTienda article {
+  border: solid black 2px;
+  justify-items: center;
+}
+
+.productosTienda__img {
+  width: 300px;
+  height: 300px;
+  padding-top: 20px;
+}
+
+.productosTienda p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.productosTienda__precio {
+  font-size: 30px;
+  border: solid 1px black;
+  margin: 0 10px;
+}
+
+.total {
+  color: #f953c6;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.totalN {
+  color: #f953c6;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+/*FOOTER*/
+.footer__logo {
+  max-width: 80px;
+  border: black solid 2px;
+}
+
+.redes {
+  height: 200px;
+  padding: 30px;
+}
+
+.redes h2 {
+  font-family: gabriola;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sociales {
+  text-align: center;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.sociales li {
+  display: inline-block;
+}
+
+.sociales a {
+  padding: 10px;
+}
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

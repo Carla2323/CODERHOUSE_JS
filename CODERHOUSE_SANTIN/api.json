@@ -1,0 +1,80 @@
+[
+
+    {	"id" : 1,
+        "nombre":"SET DE MANCUERNAS DE COLORES PASTEL X6 - 1 / 2.5 / 5 KG",
+		"precio": "9000",
+        "stock": "100",
+        "url": "img/tienda/mancuerna3.jpeg"
+    },{ 
+        "id" : 2,
+        "nombre": "COLCHONETA ADIDAS - COLORES: AZUL / NEGRO / BORDO",
+		"precio": "1200",
+        "stock": "100",
+        "url": "img/tienda/pcolcho6.png"
+    },{
+        "id" : 3,
+        "nombre": "MANCUERNA TRIANGULAR 10KG X2",
+        "precio": "11000",
+        "stock": "100",
+        "url": "img/tienda/mancuerna1.png"
+    },{
+        "id" : 4,
+        "nombre": "COLCHONETA REEBOK - COLORES: NEGRO / AZUL",
+		"precio": "1400",
+        "stock": "100",
+        "url": "img/tienda/pcolcho3.jpeg"
+    },{ 
+        "id" : 5,
+        "nombre": "WHEY PROTEIN 2 LBS MUSCLE PHARM - SIN TACC - SABOR CHOCOLATE",
+		"precio": "4880",
+        "stock": "100",
+        "url": "img/tienda/prote1.jpg"
+    },{ 
+        "id" : 6,
+        "nombre": "GOLD STANDARD 5 LBS - OPTIMUM NUTRITION - SABORES: VAINILLA / CHOCOLATE / DULCE DE LECHE",
+		"precio": "16300",
+        "stock": "100",
+        "url": "img/tienda/prote2.jpg"
+    },{ 
+        "id" : 7,
+        "nombre": "MDN WHEY 2LB - NER ISOLATE - SABORES: FRUTILLA / VAINILLA",
+		"precio": "2000",
+        "stock": "100",
+        "url": "img/tienda/prote3.png"
+    },{ 
+        "id" : 8,
+		"nombre": "WHEY PROTEIN 3KG - BODY ADVANCE - SABORES: FRUTILLA / VAINILLA / CHOCOLATE / DULCE DE LECHE",
+        "precio": "5600",
+        "stock": "100",
+        "url": "img/tienda/prote4.jpg"
+    },{ 
+        "id" : 9,
+        "nombre": "CONJUNTO NIKE ROJO MUJER - TALLES: S / M / L",
+        "precio": "9000",
+        "stock": "100",
+        "url": "img/tienda/RMrojo.jpg"
+    },{ 
+        "id" : 10,
+        "nombre": "CAMPERA NEGRA ADIDAS HOMBRE - TALLES: S / M / L",
+        "precio": "10000",
+        "stock": "100",
+        "url": "img/tienda/RHcampera.jpg"
+    },{ 
+        "id" : 11,
+        "nombre": "ZAPATILLAS NEGRAS AIR FORCE UNISEX - TALLES: 36 AL 42",
+        "precio": "20000",
+        "stock": "100",
+        "url": "img/tienda/zapasNegras.jpg"
+    },{ 
+        "id" : 12,
+        "nombre": "TOP NIKE MUJER NEGRO - TALLES XS / S / M / L",
+        "precio": "4500",
+        "stock": "100",
+        "url": "img/tienda/Deportes.jpg"
+    }
+
+
+
+
+
+]
